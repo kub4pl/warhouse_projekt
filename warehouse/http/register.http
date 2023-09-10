@@ -1,0 +1,14 @@
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+
+"jacqueskawecki@gmail.com"
+
+###
+PUT http://localhost:8080/api/register/new/password/c961cc2b-25c4-4224-9b0e-083bbbc17169
+content-Type:application/json
+
+{
+  "password": "213567",
+  "confirmPassword": "213567"
+}

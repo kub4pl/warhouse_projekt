@@ -1,0 +1,40 @@
+POST http://localhost:8081/api/part
+content-Type:application/json
+
+{
+  "partDescription": "Siłownik pneumatyczny FESTO DNC-160-80-PPA 536781",
+  "typePart": "M12",
+  "modelPart": "DNC",
+  "department": "Finishing UR",
+  "supplier": "FESTO",
+  "unit": "U"
+}
+###
+PUT http://localhost:8081/api/part/14
+content-Type:application/json
+
+{
+  "partDescription": "Siłownik pneumatyczny FESTO DNC-160-80-PPA 536781",
+  "typePart": "M11",
+  "modelPart": "DNC",
+  "department": "Finishing UR",
+  "supplier": "FESTO",
+  "unit": "U"
+}
+###
+GET http://localhost:8081/api/part/14
+###
+DELETE http://localhost:8081/api/part/15
+###
+GET http://localhost:8081/api/part/list
+###
+GET http://localhost:8081/api/part/page
+###
+GET http://localhost:8081/api/part/item?page=0&size=5'
+###
+GET http://localhost:8081/api/part/item2?page=0&size=5
+###
+GET http://localhost:8081/api/part/location?page=0&size=5
+###
+GET http://localhost:8081/api/part/worker/6
+###

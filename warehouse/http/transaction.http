@@ -1,0 +1,20 @@
+POST http://localhost:8080/api/transaction
+content-Type:application/json
+
+{
+  "workOrderNumber": 398759,
+  "quantity": 77
+}
+###
+PUT http://localhost:8080/api/transaction/3
+content-Type:application/json
+
+{
+  "workOrderNumber": "399199",
+  "quantity": 44
+}
+###
+GET http://localhost:8080/api/transaction/4
+###
+DELETE http://localhost:8080/api/transaction/3
+###

@@ -1,0 +1,7 @@
+package com.example.warehouse.repository.repositoryInterface;
+
+public interface UserNameDescription {
+
+    public String getUsername();
+    public Long getId();
+}

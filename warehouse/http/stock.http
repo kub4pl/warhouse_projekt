@@ -1,0 +1,17 @@
+POST http://localhost:8080/api/stock
+content-Type:application/json
+
+{
+  "numberWarehouse": 1,
+  "min_Value": 3,
+  "max_Value": 15
+}
+###
+PUT http://localhost:8080/api/stock/3
+content-Type:application/json
+
+{
+  "numberWarehouse": "1",
+  "min_Value": 3,
+  "max_Value": 15
+}

@@ -1,0 +1,20 @@
+POST http://localhost:8080/api/location
+content-Type:application/json
+
+{
+  "partsLocation": "K1A2",
+  "amount": 15
+}
+###
+PUT http://localhost:8080/api/location/3
+content-Type:application/json
+
+{
+  "partsLocation": "K1A4",
+  "amount": 34
+}
+###
+GET http://localhost:8080/api/location/3
+###
+DELETE http://localhost:8080/api/location/2
+###
